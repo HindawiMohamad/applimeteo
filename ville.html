@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        
+        <title>Hello World</title>
+    </head>
+    <body id="ville">
+
+            <nav class="navbar fixed-top navbar-light text-light bg-dark">
+                Meteo d'une ville choisi
+            </nav>
+            <input type="text" id="inputville" class="form-control" placeholder="tapez la ville de votre choix"><button id="go" class="btn btn-light">Valider</button>
+
+        <div class="container">
+        <div class="row h-100 justify-content-center align-items-center">
+
+
+        <div class="col-12 text-center" id="nom_ville2"></div>           
+        <div class="col-12 text-center" id="icone2"></div>
+        <div class="col-12 text-center" id="description2"></div>
+        <div class="col-6 text-right" id="temp_min2"></div>
+        <div class="col-6 text-left" id="temp_max2"></div>   
+
+        </div>
+        </div>
+
+
+        <div>
+            <nav class="navbar fixed-bottom navbar-light text-light bg-dark">
+                <a class="navbar-brand text-light" href="index.html">Geoloc</a>
+                <a class="navbar-brand text-light" href="ville.html">Ville</a>              
+            </nav>
+        </div>
+
+
+
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.js"
+		  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

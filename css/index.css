@@ -1,0 +1,48 @@
+#inputville{
+	width:300px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 50px;
+}
+
+#nom_ville, #nom_ville2{
+    font-size: 45px;
+    margin-top: 160px;
+}
+#description, #description2{
+	font-size: 30px;
+	float: left;
+	margin-bottom: 10px;
+}
+#temp_min, #temp_min2{
+	font-size: 20px;
+	border-right: 1px solid black;
+}
+#temp_max, #temp_max2{
+	font-size: 20px;
+	border-left: 1px solid black;
+}
+
+.test{
+	border-bottom: 3px solid black;
+	margin-right: 65px;
+	margin-left: 65px;
+	border-radius: 20px;
+}
+body{
+	background-image: linear-gradient(#D4D8E1, #EBEFF2);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+	margin: 0;
+	background-attachment: fixed;
+}
+html{
+	height: 100%;
+}
+#go{
+	display: inline-block;
+}
+#geoloc, #ville{
+	font-size: 20px;
+}
